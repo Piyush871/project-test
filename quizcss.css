@@ -1,0 +1,109 @@
+body{
+position: relative;
+}
+#form{
+    
+    width: 100%;
+    margin:0 auto;
+    background:rgb(25, 99, 29);
+   position: relative;
+}
+
+#name{
+    font-size: 30px;
+    position: relative;
+    text-align:center;   
+    margin-top: 10px;
+    
+    width:100%;
+    cursor: pointer;
+}
+#first{
+    font-size:50px;
+}
+#signup{
+
+    margin-top: 30px;
+    width: 80px;
+    align:center;
+}
+#middle{
+    font-size: 20px;
+    position: relative;
+    text-align:center;
+    margin-top:10px;
+    width: 100%;
+}
+#last{
+    font-size: 50px;
+    position: relative;
+    text-align:center;    
+    margin-top:1px;
+    width: 100%;
+}
+#gmail{
+    font-size: 100%;
+    position: relative;
+    text-align:center;
+    margin-top:1px;
+    width: 600px;
+    text-align-last :left;
+}
+#stream{
+    font-size: 30px;
+    position: relative;
+    text-align:center;
+    width:100%;
+    margin-top:1px;
+    text-align-last: left;
+    
+}
+#institute{
+    font-size: 15px;
+    position: relative;
+    text-align:center;
+    margin-top:1px;
+    width: 100%;
+}
+ .formtext{
+  font-size: 40px;
+}
+
+#signup{
+
+    margin-top: 30px;
+    width: 80px;
+    align:center;
+}
+#try{
+    position: relative;
+    width:100%;
+    height:30px;
+    background: red;
+}
+#try1{
+    width:100%;
+    margin-left: 2%;
+}
+@media screen and (max-width:510px){
+  #middle{
+      width:120%;
+      height: 40px;
+  }   
+  #last{
+      width:120%;
+      height:40px;
+  }
+  #email{
+      width:120%;
+      height:40px;
+}
+  #stream{
+      width:120%;
+      height:40px;
+  }
+  #institute{
+      width:120%;
+      height:40px;
+  }
+}
